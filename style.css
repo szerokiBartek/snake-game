@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    width: fit-content;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+    .column {
+        width: 30px;
+    }
+    .cell {
+        height: 30px;
+        background-color: #2cb31d;
+    }
+        .cell-light {
+            background-color: #54f542;
+        }
